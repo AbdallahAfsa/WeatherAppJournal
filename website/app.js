@@ -2,8 +2,6 @@
 const baseUrl = 'http://api.openweathermap.org/data/2.5/weather';
 const APIkey = '24521d0d12865f8be8ae89b0a91730f7';
 const serverUrl = 'http://localhost:8000';
-// const Country = 'EG';
-
 // Added an Event listener with a function to button element
 document.getElementById('generate').addEventListener('click', generateAction)
 /* Created a Function for the event listener called by event listener */
@@ -13,7 +11,6 @@ function generateAction(e){
     // implementing the getData function on click
     getData(zipCode, feelings)   
 }
-
 
 /* Function to GET Web API Data*/
 const getData = async (zipCode, feelings) => {
@@ -44,7 +41,8 @@ const getData = async (zipCode, feelings) => {
     .then(() => fetch(`${serverUrl}/all`)) // GET returns the fetch promise
     .then(response => response.json())
     .then(allData => {
-      const data = allData[allData.length - 1];
+      //Updating the UI
+      const data = allData;
       document.getElementById('date').innerHTML = data.date;
       document.getElementById('temp').innerHTML = data.temperature;
       document.getElementById('content').innerHTML = data.feelings;
