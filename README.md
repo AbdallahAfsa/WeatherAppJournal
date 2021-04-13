@@ -16,3 +16,4 @@ Now you can start the Weather Journal App by either opening the index.html file 
 
 ## Extras
 Developer: Abdallah Afsa.
+![image](https://user-images.githubusercontent.com/45557809/114518079-45a13e80-9c3f-11eb-9b47-165b5f3c22a9.png)
