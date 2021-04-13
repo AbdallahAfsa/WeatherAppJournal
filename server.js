@@ -31,6 +31,6 @@ app.post('/addData', function getData(request, response){
       feelings: request.body.feelings,
     };
     console.log(projectData);
-    response.send(projectData).status(204).end();
+    response.send(projectData).status(200).end();
   });
 //Thank you for your review ♥.
