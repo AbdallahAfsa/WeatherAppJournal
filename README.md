@@ -12,7 +12,7 @@ Server.js - response for the back-end codes for this project.
 ## Instructions
 First start your terminal then check you have node installed using 'node -v' and now start by setting up node environment with 'npm i' to install all necessary node modules.
 After setting up the the node environment type "node server.js" commend on the terminal to turn on the server. 
-Now you can start the Weather Journal App by either opening the index.html file in the website folder or, by going to this link "http://localhost:8000" .You can stop the server anytime by pressing "Ctrl + C". Upon opening the App you need to enter a valid zip code number for the app to return data.
+Now you can start the Weather Journal App by either opening the index.html file in the website folder or, by going to this link http://localhost:8000. You can stop the server anytime by pressing "Ctrl + C". Upon opening the App you need to enter a valid zip code number for the app to return data.
 
 ## Extras
 Developer: Abdallah Afsa.
